@@ -1,0 +1,189 @@
+(footprint "CornerSpacer3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.255 0)
+		(layer "B.SilkS" knockout)
+		(hide yes)
+		(uuid "1cb3f0e5-bc58-4f25-bb52-2ebfcb791a1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "CornerSpacer3mm"
+		(at 8.255 0 90)
+		(layer "B.SilkS" knockout)
+		(hide yes)
+		(uuid "38a8776b-0cc2-4683-8711-eea5d01d356b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" "0_scottcjx_keyboard_lib:CornerSpacer3mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78c9b28f-1164-4135-bd58-e9b3c65e9c90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9005b1e-c932-452c-808e-1b88f2de0c1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56f955bf-a13f-4ba1-85ac-d99fd83a85ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
+	(fp_line
+		(start -9.525 -9.525)
+		(end -9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4fdd8d60-5146-4684-9720-e06db6b5f948")
+	)
+	(fp_line
+		(start -9.525 9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c3a0cdd9-fd7b-41a3-ae90-27f33a200871")
+	)
+	(fp_line
+		(start 9.525 -9.525)
+		(end -9.525 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "925f7c91-71fc-4e50-a3bd-7b58e8c4d513")
+	)
+	(fp_line
+		(start 9.525 9.525)
+		(end 9.525 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "863a3c1d-30fc-4583-a1fc-9f7073618455")
+	)
+	(fp_line
+		(start -12.525 0)
+		(end -12.525 -12.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "2b100aad-cbc2-49ca-bec2-cc11e62266bb")
+	)
+	(fp_line
+		(start -9.525 0)
+		(end -12.525 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "52ff50fa-be3f-402b-ba21-e4a94c2cd2b8")
+	)
+	(fp_line
+		(start 0 -12.525)
+		(end -12.525 -12.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "f9725227-fb1d-4033-b7f1-14a2a71bc9bf")
+	)
+	(fp_line
+		(start 0 -9.525)
+		(end 0 -12.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "46b5a175-9f18-4196-8a67-fa2b6c3f0960")
+	)
+	(fp_line
+		(start 0 0)
+		(end -9.525 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "3b9a56c2-0d29-4e27-bb10-3442e7483bbf")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "222de4f4-3b75-4a95-900e-6d7c4ecc0a2d")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "85aa085b-ce73-4fc0-9729-42b4b16ca7c5")
+	)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

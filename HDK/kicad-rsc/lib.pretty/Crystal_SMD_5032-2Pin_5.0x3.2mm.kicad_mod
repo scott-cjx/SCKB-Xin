@@ -1,0 +1,348 @@
+(footprint "Crystal_SMD_5032-2Pin_5.0x3.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3a3fd577-d27a-4651-98d2-9702d63a6b22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "8Mhz"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "54f349f6-528a-48c8-beed-aea604455242")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0ddc721-e9e5-4ee8-bb3b-e20ef4eed971")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87e63e1d-62a5-4304-8c10-f1aab6919d85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e76ca2-d5de-4785-9256-bd01710b9190")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C115962"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4e3649a-ed6a-48af-9c53-cab1c25a5f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SW_COL" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f74b7bb5-0ed3-4869-884e-d180cdbee6ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SW_ROW" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b40c7454-4eaa-4ee8-abe4-dac1bb089e4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "362c393f-bee1-4856-8a88-b80567316695")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.333333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "3b931852-4bdd-4be9-8982-87cc7f42dfa4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.213333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "0e0fef08-b74c-4cfb-aae6-c0b504a515d3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.093332 0)
+		(stroke
+			(width 0.186667)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "b938ea79-484b-45b0-9914-380b6103d34a")
+	)
+	(fp_line
+		(start 2.7 -1.8)
+		(end -3.05 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "426471f4-d1dd-49f7-8838-9a21558eb9fb")
+	)
+	(fp_line
+		(start -3.05 1.8)
+		(end 2.7 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e207bde-d6bb-496c-97f1-12e40891db3a")
+	)
+	(fp_line
+		(start -3.05 -1.8)
+		(end -3.05 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d100d41-b1d3-4dc1-b655-56d572c90b73")
+	)
+	(fp_line
+		(start 3.1 1.9)
+		(end 3.1 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2eddb19d-53b7-465c-82f4-cc42e6486751")
+	)
+	(fp_line
+		(start 3.1 -1.9)
+		(end -3.1 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adb52907-3193-4e69-ae5b-102fa3e86ffb")
+	)
+	(fp_line
+		(start -3.1 1.9)
+		(end 3.1 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3afa703-37c5-46f1-8431-82a49da1d69c")
+	)
+	(fp_line
+		(start -3.1 -1.9)
+		(end -3.1 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df0ef955-e831-4964-b45a-a610701bd04d")
+	)
+	(fp_line
+		(start 2.499999 1.4)
+		(end 2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6959903-edf4-4f34-b78d-d8c8357ee6b1")
+	)
+	(fp_line
+		(start 2.499999 -1.4)
+		(end 2.499999 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cf4a1f0-9208-470a-ac5d-f6c0a48ce732")
+	)
+	(fp_line
+		(start 2.3 1.6)
+		(end -2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aaec694-a671-4bd3-9709-7a54655cc4f8")
+	)
+	(fp_line
+		(start 2.3 -1.6)
+		(end 2.499999 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7c0c440-cddb-4cce-9538-79474b1fdd15")
+	)
+	(fp_line
+		(start -2.3 1.6)
+		(end -2.499999 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c86b732e-aec2-4f0d-9370-a24643e9ca2a")
+	)
+	(fp_line
+		(start -2.3 -1.6)
+		(end 2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b20427b8-8463-41cb-bd78-1a9657c0a148")
+	)
+	(fp_line
+		(start -2.499999 1.4)
+		(end -2.499999 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b1b0879-a5bb-4614-9f66-6b8fb7c5f82c")
+	)
+	(fp_line
+		(start -2.499999 -1.4)
+		(end -2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77f30ccd-4238-4398-8fb2-78d6a985aefa")
+	)
+	(fp_line
+		(start -2.5 0.6)
+		(end -1.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38bb4bb8-414a-4025-989a-aae8110eb8b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "61de214b-9860-4c62-ae74-74dc8d5b4122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.850001 0 180)
+		(size 2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ef4ecd6c-422a-40f9-b074-a123df1c1768")
+	)
+	(pad "2" smd rect
+		(at 1.850001 0 180)
+		(size 2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "69ea560a-9c9b-460a-a96b-67a5745a19b5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
